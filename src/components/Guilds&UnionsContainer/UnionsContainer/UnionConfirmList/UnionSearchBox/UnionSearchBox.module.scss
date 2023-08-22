@@ -1,0 +1,22 @@
+.holder {
+  //width: 65%;
+  //margin-bottom: 1.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .holder {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .select{
+      max-width: 80%;
+  }
+  .submit{
+    max-width: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}

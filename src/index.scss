@@ -1,0 +1,64 @@
+@import "../node_modules/prismjs/themes/prism-tomorrow";
+@import "./assets/scss/app.scss";
+@import "./timeline.scss";
+
+body {
+  font-family: ir-sans-r, ir-sans-m !important;
+}
+* {
+  font-family: ir-sans-r, ir-sans-m !important;
+}
+.test55 > * {
+  z-index: 1000;
+  background-color: rgb(204, 184, 68);
+}
+
+.disabled-pagination-btn li.disabled a{
+  background-color: #d4d4d4;
+  cursor: not-allowed;
+}
+
+.resizer {
+  display: inline-block;
+  background:#c2beee;
+  width: 8px;
+  height: 7px;
+  position: absolute;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  top: 0;
+  transform: translateX(50%);
+  z-index: 1;
+  border-radius:0 0 7px 7px ;
+  touch-action:none;
+
+  &.isResizing {
+    background-color: #7367f0;
+  }
+}
+.table-header:hover .resizer{
+  transition: 0.5s;
+  visibility: visible;
+  background-color: #7367f0;
+  opacity: 1;
+}
+
+.ant-menu-submenu-vertical .ant-menu-submenu-title svg{
+  margin-right: 40px;
+}
+.ant-menu-submenu-title svg{
+  margin-right: 10px;
+}
+
+.show-image-body > div {
+  margin: 0 auto;
+}
+.show-image-body  div {
+  width: 100% !important;
+}
+
+.App-map {
+  height: 100%;
+  width: 100%;
+}

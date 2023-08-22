@@ -1,0 +1,55 @@
+.menu{
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 2000;
+}
+.menu::-webkit-scrollbar{
+  width: 5px;
+  padding: 0 2px;
+  background-color: rgba(183, 202, 184, 0.808);
+}
+.menu::-webkit-scrollbar-thumb{
+  width: 4px;
+  border-radius: 5px;
+  background-color: #32cf796c;
+}
+.menu-header{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+.manu-logo{
+  height: 50px;
+  width: 55px;
+  background: url("../../../../../assets/img/logo/logo-copy.png") no-repeat 50% 50%;
+  background-size: 100% 100%;
+}
+.brand-text{
+  color: #28c76f;
+  line-height: 50px;
+  margin: 0 3px 0 5px ;
+}
+.manu-collaps-icon{
+  color: #28c76f;
+  cursor: pointer;
+}
+.manu-close-icon{
+  display: none;
+}
+.manu-collaps-icon:hover{
+  text-shadow: #28c76f;
+}
+
+@media only screen and (max-width: 1200px) {
+  .manu-collaps-icon{
+    display: none;
+  }
+  .manu-close-icon{
+    display: block;
+  }
+}
+

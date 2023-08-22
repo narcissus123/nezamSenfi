@@ -1,0 +1,16 @@
+.logo {
+  width: 9rem;
+  height: auto;
+  margin: 0 auto;
+}
+.amount {
+  font-size: 2.1rem;
+  padding: 15px !important;
+}
+
+@media only screen and (max-width: 360px) {
+  .amount {
+    font-size: 2rem;
+    padding: 10px !important;
+  }
+}

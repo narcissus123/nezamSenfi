@@ -1,0 +1,16 @@
+.relative-loading {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.relative-loading > div {
+  position: relative;
+  margin: 0 !important;
+  padding: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

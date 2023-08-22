@@ -1,0 +1,35 @@
+.animate {
+  animation: animate 0.2s linear;
+  //max-height: 0;
+  transform-origin: top;
+}
+
+.over {
+  position: relative;
+  z-index: 1;
+}
+.under {
+  position: relative;
+  z-index: 0;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.toggle-holder {
+  padding: 10px;
+}
+
+@keyframes animate {
+  from {
+    // overflow: hidden;
+    // height: 0;
+    transform: scaleY(0);
+  }
+  to {
+    // overflow: unset;
+    // height: 140px;
+    transform: scaleY(1);
+  }
+}

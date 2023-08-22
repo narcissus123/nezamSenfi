@@ -1,0 +1,56 @@
+
+.paper{
+    width: 210mm;
+    height: auto;
+    overflow: hidden;
+    margin: 50px auto;
+    background-color: #fff;
+    .map{
+        height:378px;
+    }
+}
+
+.tableContainer {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    table-layout: fixed;
+    width: 100%;
+    empty-cells: show;
+    border-collapse: separate;
+    background-color: transparent;
+    border-spacing: 0;
+
+    th {
+        border: 1px solid #ddd;
+        border-bottom: 1px solid #ddd !important;
+        vertical-align: middle !important;
+        text-align: center !important;
+        padding: 7px 2px;
+    }
+    td {
+        vertical-align: top;
+        border-bottom: 1px solid #ddd !important;
+
+        td {
+            border: 1px solid #ddd;
+            padding: 7px;
+            margin: 1px;
+            text-align: center;
+            font-size: 12px;
+            vertical-align: top !important;
+        }
+    }
+}
+
+.noborder{
+    border: none;
+}
+
+.padzero {
+    padding: 0 !important;
+}
+
+.tablebordercollapse {
+    // border-collapse: collapse !important;
+}

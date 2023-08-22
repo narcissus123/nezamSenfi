@@ -1,0 +1,465 @@
+.width {
+  min-width: 95px;
+}
+// Select Option Type 1
+/*
+.SelectOptionContainer1 {
+    position: relative;
+    direction: rtl;
+    color: #adaca9;
+    border-radius: 7px;
+    color: #adaca9 !important;
+    border: 2px solid #b8b7b1;
+    border-radius: 7px;
+    background: #ffffcf !important;
+
+    .SelectOption1__control--is-focused{
+        border: 0px none;
+
+    }
+
+    .SelectOption1__control{
+        border: 0 none;
+        border-radius: 7px;
+        background: #ffffcf !important; 
+        box-shadow: unset;
+
+        .SelectOption1__value-container {
+            color: #adaca9 !important;
+            div{
+                color: #adaca9 !important;
+            }
+            .SelectOption1__single-value{
+                color: #adaca9 !important;
+            }
+            .SelectOption1__placeholder{
+                color: #adaca9 !important;
+            }
+        }
+
+        .SelectOption1__indicators {
+            cursor: pointer;
+            .SelectOption1__clear-indicator{
+                background-color: unset;
+                border: 0 none;
+                cursor: pointer;
+            }
+            .SelectOption1__dropdown-indicator{
+                background-image: url(../../../../assets/images/chevron-down.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 20px; 
+                svg {
+                    visibility: hidden;
+                    
+                }
+            }
+        }
+    }
+    
+    .SelectOption1__control--menu-is-open{
+        .SelectOption1__indicators {
+            .SelectOption1__dropdown-indicator{
+                background-image: url(../../../../assets/images/chevron-up.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 20px; 
+                svg {
+                    visibility: hidden;
+                    
+                }
+            }
+        }
+    }
+
+
+    .SelectOption1__indicator {
+        background-color: #f1e8c0;
+        color: #666050;
+        border-right: 2px solid #b8b7b1;
+        border-radius: 7px;
+    }
+
+    .SelectOption1__menu{
+        background: #ffffcf !important;
+        border-radius: 7px;
+        animation: selectOptionDropDown 0.2s linear ;
+        z-index: 888888888888;
+
+        .SelectOption1__menu-list {
+
+            .SelectOption1__option{
+                &:hover{
+                    background-color: #e5e5be;;
+                    cursor: pointer;
+                }
+            }
+
+            .SelectOption1__group {
+                .SelectOption1__group-heading{
+                    background: #564934!important;
+                    text-decoration: underline!important;
+                    -webkit-user-select: none!important;
+                    -moz-user-select: none!important;
+                    -ms-user-select: none!important;
+                    user-select: none!important;
+                    cursor: default!important;
+                    font-size: 19px;
+                    font-weight: 700;
+                    height: 40px;
+                    line-height: 40px;
+                    font-family: xero-bold,Roboto,Arial;
+                }
+
+                div {
+                    .SelectOption1__option{
+                        &:hover{
+                            background-color: #e5e5be;;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Select Option Type 2
+
+
+.SelectOptionContainer2 {
+    direction: rtl;
+    color: #ffffe0;
+    border-radius: 7px;
+    color: #adaca9 !important;
+    border: 4px solid #585546;
+    background-color: #736d57;
+    border-radius: 7px;
+    opacity: 0.8;
+
+    &:hover {
+        opacity: 1;
+        cursor: pointer;
+        background-color: #585546 !important;
+        transition: 0.4s;
+        .SelectOption2__control{
+            cursor: pointer;
+            background-color: #585546 !important;
+            border: 0 none;
+            transition: 0.4s;
+        }
+    }
+    
+    .SelectOption2__control--is-focused{
+        border: 0px none;
+        border-radius: 7px;
+
+    }
+
+    .SelectOption2__control{
+        border: 0 none;
+        border-radius: 7px;
+        background-color: #736d57;
+        box-shadow: unset;
+
+        .SelectOption2__value-container {
+            text-align: center;
+            color: #ffffe0 !important;
+            
+            div{
+                color: #ffffe0 !important;
+                text-align:center
+            }
+            .SelectOption2__single-value{
+                left:50%;
+                transform: translateX(-50%) translateY(-50%);;
+                color: #ffffe0 !important;
+            }
+            .SelectOption2__placeholder{
+                left:50%;
+                width: 100%;
+                transform: translateX(-50%) translateY(-50%);;
+                color: #ffffe0 !important;
+            }
+        }
+
+        .SelectOption2__indicators {
+            cursor: pointer;
+            .SelectOption2__clear-indicator{
+                background-color: unset;
+                border: 0 none;
+                cursor: pointer;
+            }
+            .SelectOption2__dropdown-indicator{
+                background-image: url(../../../../assets/images/landing-page/chevron-down.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 20px; 
+                svg {
+                    visibility: hidden;
+                    
+                }
+            }
+        }
+    }
+    
+    .SelectOption2__control--menu-is-open{
+        .SelectOption2__indicators {
+            .SelectOption2__dropdown-indicator{
+                background-image: url(../../../../assets/images/landing-page/chevron-up.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 20px; 
+                svg {
+                    visibility: hidden;
+                    
+                }
+            }
+        }
+    }
+
+
+    .SelectOption2__indicator-separator {
+        visibility: hidden;
+    }
+    .SelectOption2__indicator {
+        background-color: #a19e89;
+        color: #ffffe0;
+        border-right: 0 none;
+        border-radius: 7px;
+    }
+
+    .SelectOption2__menu{
+        border-radius: 7px;
+        border: 4px solid #585546;
+        background-color: #a19e89;
+        animation: selectOptionDropDown 0.2s linear ;
+        z-index: 888888888888;
+
+
+        .SelectOption2__menu-list {
+            text-align: center;
+
+            .SelectOption2__menu-notice {
+                color: #ffffe0 !important;
+            }
+
+            .SelectOption2__option--is-focused{
+                background-color:  #a3a3a2 ;
+            }
+            .SelectOption2__option{
+                color: #ffffe0 !important;
+                &:hover{
+                    background-color: #7e7c6f;
+                    cursor: pointer;
+                }
+            }
+
+            .SelectOption2__group {
+                .SelectOption2__group-heading{
+                    background: #564934!important;
+                    text-decoration: underline!important;
+                    -webkit-user-select: none!important;
+                    -moz-user-select: none!important;
+                    -ms-user-select: none!important;
+                    user-select: none!important;
+                    cursor: default!important;
+                    font-size: 19px;
+                    font-weight: 700;
+                    height: 40px;
+                    line-height: 40px;
+                    font-family: xero-bold,Roboto,Arial;
+                    color: #ffffe0 !important;
+                }
+
+                div {
+                    .SelectOption2__option--is-focused{
+                        background-color:  #a3a3a2 ;
+                    }
+                    .SelectOption2__option{
+                        color: #ffffe0 !important;
+                        &:hover{
+                            background-color: #7e7c6f;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// Select Option Type 3
+
+
+.SelectOptionContainer3 {
+    direction: rtl;
+    color: #ffffe0;
+    border-radius: 7px;
+    color: #adaca9 !important;
+    background-color: #efefef;
+    border-radius: 7px;
+    border: 2px solid #b8b7b1;
+
+    &:hover {
+        cursor: pointer;
+
+        .SelectOption3__control{
+            cursor: pointer;
+            background-color: #efefef;
+        }
+    }
+    
+    .SelectOption3__control--is-focused{
+        border: 0px none;
+        border-radius: 7px;
+
+    }
+
+    .SelectOption3__control{
+        border: 0 none;
+        border-radius: 7px;
+        background-color: #efefef;
+        box-shadow: unset;
+
+        .SelectOption3__value-container {
+            text-align: center;
+            color: #adaca9;
+            
+            div{
+                color: #adaca9;
+                text-align:center
+            }
+            .SelectOption3__single-value{
+                color: #adaca9;
+            }
+            .SelectOption3__placeholder{
+                color: #adaca9;
+            }
+        }
+
+        .SelectOption3__indicators {
+            cursor: pointer;
+            .SelectOption3__clear-indicator{
+                background-color: unset;
+                border: 0 none;
+                cursor: pointer;
+                color: rgb(121, 120, 120);
+                
+                &:hover{
+                    color: rgb(53, 51, 51);
+                }
+            }
+            .SelectOption3__dropdown-indicator{
+                background-image: url(../../../../assets/images/registeration/chevron-down.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 20px; 
+                background-color: #d8d8d8;
+                svg {
+                    visibility: hidden;
+                    
+                }
+            }
+        }
+    }
+    
+    .SelectOption3__control--menu-is-open{
+        .SelectOption3__indicators {
+            .SelectOption3__dropdown-indicator{
+                background-image: url(../../../../assets/images/registeration/chevron-up.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 20px; 
+                background-color: #d8d8d8;
+                svg {
+                    visibility: hidden;
+                    
+                }
+            }
+        }
+    }
+
+
+    .SelectOption3__indicator-separator {
+        visibility: hidden;
+    }
+    .SelectOption3__indicator {
+        background-color: #a19e89;
+        color: #ffffe0;
+        border-right: 0 none;
+        border-radius: 7px;
+    }
+
+    .SelectOption3__menu{
+        position: relative;
+        border-radius: 7px;
+        border: 2px solid #b8b7b1;
+        background-color: #efefef;
+        animation: selectOptionDropDown 0.2s linear ;
+        z-index: 888888888888;
+
+        .SelectOption3__menu-list {
+
+            .SelectOption3__option--is-focused{
+                background-color:  #e4e4e3 ;
+            }
+            .SelectOption3__option{
+                color: #adaca9 !important;
+                &:hover{
+                    background-color: #dedede;
+                    cursor: pointer;
+                }
+            }
+
+            .SelectOption3__group {
+                color: #adaca9;
+                .SelectOption3__group-heading{
+                    background: #564934!important;
+                    text-decoration: underline!important;
+                    -webkit-user-select: none!important;
+                    -moz-user-select: none!important;
+                    -ms-user-select: none!important;
+                    user-select: none!important;
+                    cursor: default!important;
+                    font-size: 19px;
+                    font-weight: 700;
+                    height: 40px;
+                    line-height: 40px;
+                    font-family: xero-bold,Roboto,Arial;
+                    color: #adaca9 !important;
+                }
+
+                div {
+                    .SelectOption3__option--is-focused{
+                        background-color:  #e4e4e3 ;
+                    }
+                    .SelectOption3__option{
+                        color: #adaca9;
+                        &:hover{
+                            background-color: #dedede;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@keyframes selectOptionDropDown {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+
+*/

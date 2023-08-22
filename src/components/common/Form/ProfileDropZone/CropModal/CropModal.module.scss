@@ -1,0 +1,19 @@
+.cropper-holder {
+  height: 400px;
+  display: flex;
+  padding: 5px;
+  overflow: hidden;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .cropper-holder {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .cropper-holder {
+    height: 300px;
+  }
+}

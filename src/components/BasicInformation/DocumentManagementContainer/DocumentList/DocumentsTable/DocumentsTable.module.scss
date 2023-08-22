@@ -1,0 +1,42 @@
+.headerRow {
+    margin: 0px;
+    div{
+        text-align: center;
+        margin:0px;
+        margin-bottom: 10px;
+    }
+
+}
+
+.dataRow {
+    margin:0;
+    
+    >div{
+        display: flex;
+        margin:0px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 12px;
+        padding:5px 0px;
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+
+.emptyTableRow  {
+     text-align: center ; 
+     background-color:#CCC ; 
+     padding:5px
+}
+
+@media (max-width: 780px) {
+    .headerRow{
+        display: none;
+    }
+    
+    .dataRow{
+        border: 1px solid #ccc;
+        margin-bottom: 7px;
+    }
+}

@@ -1,0 +1,39 @@
+.toggle-holder {
+  padding: 10px 0;
+}
+
+.back-page {
+  margin-right: 10px;
+}
+
+.mobile-btn {
+  padding: 0 15px;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+.list-header-margin {
+  margin-top: 25px;
+}
+
+.no-date {
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 750px) {
+  .responsiveList {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .mobile-btn {
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+
+    .submit {
+      margin-bottom: 10px;
+    }
+  }
+}

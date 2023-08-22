@@ -1,0 +1,13 @@
+.item-flex {
+  flex: 1;
+  color: #257b50;
+  &:hover {
+    color: #257b50;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

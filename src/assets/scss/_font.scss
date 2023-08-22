@@ -1,0 +1,76 @@
+// @font-face {
+//     font-family: 'ir-sans-u';
+//     // src: url('assets/fonts/iran-sans/IRANSans_UltraLight.ttf');
+//     src: url("../fonts/iran-sans/IRANSansWeb_UltraLight.eot");
+//     /* IE */
+//     src: url("../fonts/iran-sans/IRANSansWeb_UltraLight.eot#iefix") format("embedded-opentype"), /* IE */
+//     url("../fonts/iran-sans/IRANSansWeb_UltraLight.woff") format("woff"), /* Modern Browsers */
+//     url("../fonts/iran-sans/IRANSansWeb_UltraLight.ttf") format("truetype");
+//     /* Safari, Android, iOS */
+// }
+
+@font-face {
+    font-family: 'ir-sans-r';
+    // src: url('assets/fonts/iran-sans/IRANSans.ttf');
+    src: url("../fonts/iran-sans/IRANSansWeb.eot");
+    /* IE */
+    src: url("../fonts/iran-sans/IRANSansWeb.eot?#iefix") format("embedded-opentype"), /* IE */
+    url("../fonts/iran-sans/IRANSansWeb.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/iran-sans/IRANSansWeb.ttf") format("truetype");
+    font-weight: normal;
+    /* Safari, Android, iOS */
+}
+
+// @font-face {
+//     font-family: 'ir-sans-b';
+//     // src: url('assets/fonts/iran-sans/IRANSans_Bold.ttf');
+//     /* IE */
+//     src:/* IE */
+//     url("../fonts/iran-sans/IRANSansWeb_Bold.woff") format("woff"), /* Modern Browsers */
+//     url("../fonts/iran-sans/IRANSansWeb_Bold.ttf") format("truetype");
+//     font-weight: normal;
+//     /* Safari, Android, iOS */
+// }
+
+// @font-face {
+//     font-family: 'ir-sans-l';
+//     // src: url('assets/fonts/iran-sans/IRANSans_Light.ttf');
+//     src: url("../fonts/iran-sans/IRANSansWeb_Light.eot");
+//     /* IE */
+//     src: url("../fonts/iran-sans/IRANSansWeb_Light.eot#iefix") format("embedded-opentype"), /* IE */
+//     url("../fonts/iran-sans/IRANSansWeb_Light.woff2") format("woff2"), /* Modern Browsers */
+//     url("../fonts/iran-sans/IRANSansWeb_Light.ttf") format("truetype");
+//     /* Safari, Android, iOS */
+// }
+
+@font-face {
+    font-family: 'ir-sans-m';
+    // src: url('assets/fonts/iran-sans/IRANSans_Medium.ttf');
+    src: url("../fonts/iran-sans/IRANSansWeb_Medium.eot");
+    /* IE */
+    src: url("../fonts/iran-sans/IRANSansWeb_Medium.eot#iefix") format("embedded-opentype"), /* IE */
+    url("../fonts/iran-sans/IRANSansWeb_Medium.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/iran-sans/IRANSansWeb_Medium.ttf") format("truetype");
+    font-weight: normal;
+    /* Safari, Android, iOS */
+}
+
+.ir-sans-r {
+    font-family: 'ir-sans-r' !important;
+}
+
+// .ir-sans-l {
+//     font-family: 'ir-sans-l' !important;
+// }
+
+.ir-sans-m {
+    font-family: 'ir-sans-m' !important;
+}
+
+// .ir-sans-b {
+//     font-family: 'ir-sans-b' !important;
+// }
+
+// .ir-sans-u {
+//     font-family: 'ir-sans-u' !important;
+// }

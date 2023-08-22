@@ -1,0 +1,109 @@
+.pagination-holder {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.pagination-holder li {
+  background-color: #f0f0f0;
+  display: inline;
+}
+
+.pagination-holder li > a {
+  background-color: #f0f0f0;
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  line-height: 35px;
+  border-right: 0.1px solid rgba(204, 204, 204, 0.473);
+}
+
+.no-border {
+  border: none !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+
+.pagination-holder li.page-active > a {
+  background-color: #7367f0;
+  color: rgb(255, 255, 255);
+}
+.pagination-holder li:hover > a {
+  background-color: #a5a0dfb0;
+  color: rgb(255, 255, 255);
+}
+.pagination-holder li.page-active:hover > a {
+  background-color: #a5a0dfb0;
+  color: rgb(255, 255, 255);
+}
+
+.table-header:hover .resizer {
+  background-color: red;
+}
+
+.filter-hilder {
+  height: 150px;
+  background: #ccccce57;
+  border-radius: 10px;
+}
+
+.loading-holder {
+  height: 100px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.emptyTableRow {
+  text-align: center;
+  background-color: #ccc;
+  padding: 5px;
+}
+
+.dropdown-holder {
+  width: 90px;
+}
+
+.toggle-holder {
+  width: 50px;
+}
+
+.toggle-parent {
+  height: 38px;
+}
+
+.width {
+  min-width: 50px;
+}
+
+.text-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-break: break-word;
+}
+
+@media only screen and (max-width: 680px) {
+  .dropdown-holder {
+    width: 100px;
+  }
+
+  .toggle-parent {
+    width: 100px;
+    position: relative;
+    left: 0;
+  }
+
+  .header-style {
+    flex-direction: column;
+  }
+
+  .toggle-holder {
+    width: auto;
+  }
+}

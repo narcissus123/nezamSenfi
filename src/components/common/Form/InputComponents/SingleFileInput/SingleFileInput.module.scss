@@ -1,0 +1,36 @@
+.text-input-margin{
+    margin: 3px 0;
+  }
+  .text-input-error{
+    border: 1px solid #ea5455;
+  }
+  .text-input-success{
+    border: 1px solid #28c76f;
+  }
+  .text-input-error-message{
+    color: #fff;
+    padding: 5px;
+    font-size: 0.8rem;
+    border-radius: 0.428rem;
+    background-color: #ea5455;
+  }
+  
+
+.inputContainer {
+  width: 100%;
+  height: 37.4px;
+  padding: 9.8px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  cursor: pointer;
+}
+
+.inputButton{
+  height: 15px;
+  line-height: 5px;
+  padding: 13px 18px;
+  margin-left: 15px;
+}

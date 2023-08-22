@@ -1,0 +1,24 @@
+.treeview > .toggle {
+  pointer-events: all;
+  cursor: pointer;
+  margin-right: 10px !important;
+}
+.treeview > .toggle:hover {
+  color: #63b1de;
+  fill: #63b1de;
+}
+.treeview {
+  margin-left: 6px !important;
+  padding: 8px 20px 0 !important ;
+}
+.treeview > div{
+  border: none;
+  border-left:1px dashed rgba(197, 28, 28, 0.747) !important;
+}
+
+.btn-padding{
+  padding: 10px 16px !important;
+}
+.btn-padding svg{
+  margin-left: 4px;
+}

@@ -1,0 +1,39 @@
+.headerRow {
+    margin: 0px;
+    div{
+        text-align: center;
+        margin:0px;
+        margin-bottom: 15px;
+    }
+
+}
+
+.dataRow {
+    margin:0px;
+    div{
+        display: flex;
+        margin:0px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        font-size: 12px;
+        padding:5px 0px
+    }
+}
+
+.emptyTableRow  {
+    text-align: center ; 
+    padding:5px
+}
+
+@media (max-width: 780px) {
+    .headerRow{
+        display: none;
+    }
+    
+    .dataRow{
+        border: 1px solid #ccc;
+        margin-bottom: 7px;
+    }
+}

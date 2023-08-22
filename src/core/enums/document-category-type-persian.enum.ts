@@ -1,0 +1,22 @@
+export enum DocumentTypeEnumPersian {
+  IdentityDocuments = "اسناد هویتی",
+  Building = "اسناد ساختمانی",
+  Facilities = "اسناد تاسیسات",
+  ActivityLicense = "اسناد مجوزات فعالیت",
+  Well = "اسناد چاه",
+  OwenerShip = "اسناد مالکیتی",
+  EducationalDocuments_PhdPlus = "اسناد تحصیلی - فوق دکترا",
+  EducationalDocuments_Phd = "اسناد تحصیلی - دکترا",
+  EducationalDocuments_Master = "اسناد تحصیلی - کارشناسی ارشد",
+  EducationalDocuments_Bachelor = "اسناد تحصیلی - کارشناسی",
+  EducationalDocuments_CertificatePlus = "اسناد تحصیلی - فوق دیپلم",
+  EducationalDocuments_Certificate = "اسناد تحصیلی - دیپلم",
+  EducationalDocuments_MiddleSchoolDegree = "اسناد تحصیلی - سیکل",
+  Certificate1 = "گواهی مهارت",
+  Certificate2 = "تقدیرنامه",
+  LackOfbackgroundDocuments = "گواهی عدم سو پیشینه",
+  NoAddictionDocuments = "گواهی عدم اعتیاد",
+  HaveEndCArd = "کارت پایان خدمت",
+  HaveExemptionCard = " کارت معافیت",
+  Official = "اسناد اداری"
+}

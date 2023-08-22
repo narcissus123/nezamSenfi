@@ -1,0 +1,78 @@
+
+
+
+.contentContainer {
+
+
+    //border: 0.5px solid #ccc;
+}
+
+.selectRow {
+    margin: 0 !important; 
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.selectCol {
+    padding:0
+}
+
+.colFlexCenter {
+
+}
+
+
+.rowLabel {
+ 
+}
+
+.isRequired {
+    position: relative;
+    &:after {
+        content: "*";
+        position: absolute;
+        top:-10px;
+        color: red;
+        right:-10px;
+    }
+}
+
+.buttonContainer {
+    float:left;
+}
+.navigationButtonContainer {
+    float:right;
+}
+
+.animatedDiv {
+    animation: divAnimation 0.2s linear;
+
+}    
+
+
+@keyframes divAnimation {
+    from {
+        overflow: hidden;
+        height: 0;
+    }
+    to {
+        overflow: unset;
+        height: 145.4px;
+    }
+}
+
+
+@media only screen and (max-width: 418px) {
+    .buttonContainer {
+      width: 100%;
+      margin-bottom: 15px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .navigationButtonContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }

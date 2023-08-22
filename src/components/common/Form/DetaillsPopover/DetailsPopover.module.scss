@@ -1,0 +1,22 @@
+.dropZoneContainer{
+    
+    border:0.1px solid #ccc;
+    padding: 20px;
+    padding-bottom: 0;
+    .insideHolder {
+        height:240px;
+        border:3px dashed #ddd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .selectButton{
+        margin: 10px 0px;
+    }
+}
+
+.is-invalid{
+    border: 1px solid rgb(255, 52, 52);
+}

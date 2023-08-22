@@ -1,0 +1,19 @@
+@media only screen and (max-width: 600px) {
+  .holder {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .holder {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .mobile-mode {
+    justify-content: center !important ;
+    margin: 10px 0;
+  }
+}

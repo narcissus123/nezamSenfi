@@ -1,0 +1,18 @@
+.item-flex {
+    flex: 1;
+    color: #7367f0;
+    &:hover {
+      color: #7367f0;
+    }
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+
+  .padding-top-spinner{
+    padding-top: 4px;
+  }

@@ -1,0 +1,63 @@
+
+.paper{
+    width: 210mm;
+    height: 297mm;
+    // overflow: hidden;
+    // border: 1px solid black;
+    margin: 50px auto;
+    padding: 16px !important;
+
+    .map{
+        height:378px;
+        // border: 1px solid #ccc;
+
+    }
+
+}
+
+
+.tableContainer {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    table-layout: fixed;
+    width: 100%;
+    empty-cells: show;
+    border-collapse: separate;
+    background-color: transparent;
+    border-spacing: 0;
+
+    th {
+        border: 1px solid #ddd;
+        border-bottom: 1px solid #ddd !important;
+        vertical-align: middle !important;
+    }
+    td {
+        vertical-align: unset;
+
+        border-bottom: 1px solid #ddd !important;
+
+        td {
+            border: 1px solid #ddd;
+            padding: 7px;
+            margin: 1px;
+            text-align: center;
+            font-size: 12px;
+            vertical-align: middle !important;
+
+        }
+       
+    }
+}
+
+.noborder{
+    border: none;
+}
+
+.padzero {
+    padding: 0 !important;
+}
+
+.tablebordercollapse {
+    // border-collapse: collapse !important;
+}

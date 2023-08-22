@@ -1,0 +1,52 @@
+.change-phone-number {
+  margin-top: 4px;
+  margin-left: 20px;
+}
+
+.back-page {
+  margin-right: 10px;
+}
+
+.mobile-btn {
+  padding: 0 15px;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+@media only screen and (max-width: 460px) {
+  .cellphone-holder {
+    display: block !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .mobile-btn {
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+
+    .submit {
+      margin-right: 10px;
+    }
+  }
+  .change-phone-number {
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 409px) {
+  .change-phone-number {
+    font-size: 12px;
+  }
+
+  .mobile-btn {
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+
+    .submit {
+      margin-bottom: 10px;
+    }
+  }
+}
